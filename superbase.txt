@@ -1,0 +1,3 @@
+project id: kdvtcfjirvvvjcaysjss
+app url: https://kdvtcfjirvvvjcaysjss.supabase.co/rest/v1/
+service_role; eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtkdnRjZmppcnZ2dmpjYXlzanNzIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc5MzQ4MDEyMiwiZXhwIjoyMTA5MDU2MTIyfQ.B47xVKlTYKzi6rwKlyMgwPyFlnrYA-eeJH3AzhCTfrg

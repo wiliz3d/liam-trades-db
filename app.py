@@ -178,8 +178,8 @@ def require_login():
 
 require_login()
 
-SUPABASE_URL = secret("SUPABASE_URL")
-SUPABASE_KEY = secret("SUPABASE_SERVICE_ROLE_KEY")
+SUPABASE_URL = secret("https://kdvtcfjirvvvjcaysjss.supabase.co/rest/v1/")
+SUPABASE_KEY = secret("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtkdnRjZmppcnZ2dmpjYXlzanNzIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc5MzQ4MDEyMiwiZXhwIjoyMTA5MDU2MTIyfQ.B47xVKlTYKzi6rwKlyMgwPyFlnrYA-eeJH3AzhCTfrg")
 if not SUPABASE_URL or not SUPABASE_KEY:
     st.error("SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY is missing from your secrets.")
     st.stop()
